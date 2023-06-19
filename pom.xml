@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.EdamAutomation</groupId>
-    <artifactId>eDam_end2end_automation</artifactId>
+    <artifactId>end2end_automation</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>edam_end2end_automation</name>
