@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="eDam_end2end_Automation" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
+    <test name="Login Page" annotations="JDK">
+        <parameter name="userName" value="admin"/>
+        <parameter name="password" value="admin"/>
+        <classes>
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
